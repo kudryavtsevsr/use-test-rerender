@@ -1,0 +1,38 @@
+{
+  "name": "use-test-rerender",
+  "version": "0.1.0",
+  "description": "React hook for testing re render of components",
+  "main": "dist/use-test-rerender.js",
+  "module": "dist/use-test-rerender.module.js",
+  "source": "src/index.ts",
+  "exports": {
+    ".": {
+      "require": "./dist/use-test-rerender.js",
+      "import": "./dist/use-test-rerender.module.js"
+    }
+  },
+  "scripts": {
+    "build": "microbundle"
+  },
+  "files": [
+    "dist/"
+  ],
+  "keywords": [
+    "react",
+    "testing",
+    "util",
+    "utility",
+    "hooks"
+  ],
+  "author": "Sergei Kudriavtsev",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "^16.8.0 || ^17.0.1 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "@types/react": "^16.9.56",
+    "microbundle": "^0.12.4",
+    "typescript": "^4.0.5"
+  }
+}
