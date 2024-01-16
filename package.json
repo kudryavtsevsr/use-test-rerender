@@ -13,8 +13,7 @@
     }
   },
   "scripts": {
-    "build": "microbundle",
-    "preinstall": "microbundle"
+    "build": "microbundle"
   },
   "repository": {
     "type": "git",
