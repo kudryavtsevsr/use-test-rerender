@@ -1,6 +1,6 @@
 {
   "name": "use-test-rerender",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "React hook for testing re render of components",
   "main": "dist/use-test-rerender.js",
   "module": "dist/use-test-rerender.module.js",
